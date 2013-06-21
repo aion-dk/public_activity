@@ -1,4 +1,3 @@
 module PublicActivity
-  class Activity < inherit_orm("Activity")
-  end
+  Activity = inherit_orm("Activity")
 end
