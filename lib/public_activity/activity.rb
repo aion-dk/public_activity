@@ -1,4 +1,1 @@
-module PublicActivity
-  class Activity < inherit_orm("Activity")
-  end
-end
+require 'public_activity/models/activity'
